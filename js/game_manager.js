@@ -13,6 +13,7 @@ function GameManager(size, InputManager, Actuator, StorageManager) {
   this.setup();
 }
 
+// Here's a comment to test commiting changes to my own.
 // Restart the game
 GameManager.prototype.restart = function () {
   this.storageManager.clearGameState();
